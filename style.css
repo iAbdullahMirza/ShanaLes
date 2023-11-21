@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    max-width: 100%;
+}
+body>*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+    padding: 0px 50px;
+}
+.hero-section{
+    height: 610px;
+    background-color: #E6B4A5;
+}
+.hero-section>*{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 59px;
+    padding: 15px 35px;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+    font-family: cursive;
+    cursor: pointer;
+    margin-top: -5px;
+}
+header nav{
+    display: flex;
+    font-size: 18.5px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    /* padding: unset; */
+    align-items: center;
+    cursor: pointer;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+header .book-btn{
+    display: flex;
+    align-items: center;
+}
+header button{
+    cursor: pointer;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 27px;
+    border: 2px solid black;
+    border-radius: 38px;
+    background-color: #E6B4A5;
+}
+header button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.hero-section .main .left{
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+}
+.hero-section .main .left .heading{
+    margin-top: 65px;
+    font-size: 100px;
+    font-family: math;
+    font-weight: 600;
+    padding-left: 43px;
+}
+.hero-section .main .left .contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 57px;
+    width: 530px;
+}
+.hero-section .main .left .contacts .address{
+    cursor: pointer;
+    width: 163px;
+    font-weight: 500;
+}
+.hero-section .main .left .contacts .email{
+    cursor: pointer;
+    width: 163px;
+    font-weight: 500;
+}
+.hero-section .main .right{
+    height: 500px;
+    width: 35%;
+    /* height: 400px; */
+}
+.hero-section .main .right img{
+    height: 443px;
+    width: 416px;
+    border-top-left-radius: 219px;
+    border-top-right-radius: 219px;
+    float: right;
+    margin-right: 39px;
+    margin-top: 44px;
+}
+
+
+
+
+
+
+
+.blog{
+    display: flex;
+    background-color: white;
+}
+.blog .left{
+    width: 44%;
+}
+.blog .left img{
+    height: 423px;
+    width: 408px;
+    border-top-left-radius: 219px;
+    border-top-right-radius: 219px;
+    margin-top: 66px;
+    margin-left: 53px;
+}
+
+.blog .right{
+    display: flex;
+    flex-direction: column;
+    padding: 88px 10px 40px 70px;
+    width: 56%;
+}
+h2{
+    font-size: 60px;
+    font-family: math;
+    margin: unset
+}
+.blog .right p{
+    line-height: 22px;
+    font-size: 18px;
+    color: #0000008c;
+    margin: 50px 0px 100px 0px;
+}
+
+
+
+
+
+
+
+
